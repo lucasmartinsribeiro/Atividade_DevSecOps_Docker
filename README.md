@@ -12,3 +12,8 @@
   - sudo sh get-docker.sh
   
   - Depois você pode rodar o comando "sudo service docker start" para verificar se o docker está rodando.
+
+# Rodar o docker-compose #
+ - git clone https://github.com/lucasmartinsribeiro/Atividade_DevSecOps_Docke.git
+ - cd docker-compose/
+ - docker-compose up

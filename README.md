@@ -1,6 +1,6 @@
 # Atividade_DevSecOps_Docker realizada durante o estágio na Compass - DevSecOps #
 
-- Esse repositório tem como objetivo mostrar de como subir uma aplicação Wordpress + DB Mysql utilizando docker.
+- Esse repositório tem como objetivo mostrar como subir uma aplicação Wordpress + DB Mysql utilizando docker.
 - Desenvolvido por: Lucas Martins Ribeiro e João Fellipe Lemos Costa
 
 # Instalação do Docker Desltop no Windows #

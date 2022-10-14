@@ -3,7 +3,7 @@
 - Esse repositório tem como objetivo mostrar como subir uma aplicação Wordpress + DB Mysql utilizando docker.
 - Desenvolvido por: Lucas Martins Ribeiro e João Fellipe Lemos Costa
 
-# Instalação do Docker Desltop no Windows #
+# Instalação do Docker Desktop no Windows #
   - Utilize a documentação disponibilizada no site do Docker: https://docs.docker.com/desktop/install/windows-install/
 
 # Instalação do Docker no Linux usando um script #

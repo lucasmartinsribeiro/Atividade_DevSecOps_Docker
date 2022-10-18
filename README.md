@@ -11,6 +11,14 @@
   - curl -fsSL https://get.docker.com -o get-docker.sh
   - sudo sh get-docker.sh
   
+  - Depois você pode rodar o comando "sudo service docker start" para iniciar o docker.
+  - Depois você pode rodar o comando "sudo service docker status" para verificar se o docker está rodando.
+  
+# Instalação do Docker Engine no Linux #
+  - sudo apt-get update
+  - sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  - docker compose version
+  
   - Depois você pode rodar o comando "sudo service docker status" para verificar se o docker está rodando.
 
 # Rodar o projeto utilizando docker-compose #

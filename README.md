@@ -103,6 +103,6 @@ E inserimos a seguinte programação e salvamos o documento.
 	
 Após a execução desse comando iniciará o processo de instalação de imagens, configuração das variáveis de ambiente e criação dos contêineres.
 
-5. Com o processo de instalação terminado basta verificar se está tudo funcionando, para isso vá no navegador e digite “localhost:80” e  aperta enter. Se tudo estiver certo aparecerá a página de configuração do wordpress.
+4. Com o processo de instalação terminado basta verificar se está tudo funcionando, para isso vá no navegador e digite “localhost:80” e  aperta enter. Se tudo estiver certo aparecerá a página de configuração do wordpress.
 	
 

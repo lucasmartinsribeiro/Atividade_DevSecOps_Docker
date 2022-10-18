@@ -19,10 +19,10 @@
 3. Instale os pacotes para permitir o acesso ao repositório HTTPS
 
 	$  sudo apt-get install \
-   		 ca-certificates \
-  		 curl \
-  		 gnupg \
-   		 lsb-release
+		 ca-certificates \
+		 curl \
+		 gnupg \
+		 lsb-release
 
 4. Adicione a chave GPG oficial do Docker
 
@@ -32,20 +32,20 @@
 5. Configura o repositório
 
 	$ echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+	"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+	$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 6. Atualize os pacotes novamente
 	
 	$ sudo apt-get update
-Em caso de erro na atualização dos pacotes tente definir o umask do computador com o comando:
+	Em caso de erro na atualização dos pacotes tente definir o umask do computador com o comando:
 
 	$ sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
 7. Instale a versão mais recente do Docker Engine e Docker Compose 
 
 	$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-	
+
 # Criação do Wordrpess Vinculado ao Banco de Dados MySql #
 
 

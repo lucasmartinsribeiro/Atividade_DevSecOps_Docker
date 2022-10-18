@@ -99,7 +99,7 @@ E inserimos a seguinte programação e salvamos o documento.
 
 3. Depois do arquivo YML configurado, no mesmo diretório que está localizado o arquivo executamo o arquivo com o comando:
 
-	docker-compose up
+	$ docker-compose up
 	
 Após a execução desse comando iniciará o processo de instalação de imagens, configuração das variáveis de ambiente e criação dos contêineres.
 

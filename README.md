@@ -106,3 +106,16 @@ Após a execução desse comando iniciará o processo de instalação de imagens
 4. Com o processo de instalação terminado basta verificar se está tudo funcionando, para isso vá no navegador e digite “localhost:80” e  aperta enter. Se tudo estiver certo aparecerá a página de configuração do wordpress.
 	
 
+# Alterar o nome do domínio "localhost" #
+
+# Windows #
+- Navegar ao diretório: # cd C:\WINDOWS\system32\drivers\etc\
+- Clicar no arquivo hosts.
+- Executar o arquivo no Notepad++ como administrador.
+- Atribuir uma nova linha no arquivo hosts contendo o IP do host e o nome do domínio.
+- Ex: 127.0.0.1 atividade-docker-compass
+
+# Linux #
+- Alterar o arquivo: vim /etc/hosts.
+- Atribuir uma nova linha no arquivo contendo o IP do host e o nome do domínio.
+- Ex: 127.0.0.1 atividade-compasso

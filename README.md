@@ -116,6 +116,23 @@ Após a execução desse comando iniciará o processo de instalação de imagens
 - Ex: 127.0.0.1 atividade-docker-compass
 
 # Linux #
-- Alterar o arquivo: vim /etc/hosts.
-- Atribuir uma nova linha no arquivo contendo o IP do host e o nome do domínio.
-- Ex: 127.0.0.1 atividade-compasso
+- Entre no diretório: cd /.
+- Conseda permissão de escrita para o arquivo hosts: 
+
+	$ sudo chmod 777 /etc/hosts
+	
+- abra o arquivo hosts no editor:
+	
+	$ vim /etc/hosts
+	
+Obs: precione a tecla i para entrar no modo de edição
+	
+- Edite o o arquivo hosts atibuindo uma nova linha com um ip padrão host(127.0.0.1) e logo após o nome do domínio:
+
+Exemplo:
+	127.0.0.1	localhost
+	127.0.0.1       atividade-compasso #linha acrescentada
+
+Obs: Para salvar basta precionar ESC e digitar :wq! e dar enter.
+
+

@@ -116,8 +116,11 @@ Após a execução desse comando iniciará o processo de instalação de imagens
 - Ex: 127.0.0.1 atividade-docker-compass
 
 # Linux #
-- Entre no diretório: cd /.
-- Conseda permissão de escrita para o arquivo hosts: 
+- Entre no diretório raiz: 
+- 
+	$ cd /
+	
+- Conceda permissão de escrita para o arquivo hosts: 
 
 	$ sudo chmod 777 /etc/hosts
 	
@@ -125,14 +128,19 @@ Após a execução desse comando iniciará o processo de instalação de imagens
 	
 	$ vim /etc/hosts
 	
-Obs: precione a tecla i para entrar no modo de edição
+Obs: pressione a tecla i para entrar no modo de edição
 	
-- Edite o o arquivo hosts atibuindo uma nova linha com um ip padrão host(127.0.0.1) e logo após o nome do domínio:
+- Edite o o arquivo hosts atribuindo uma nova linha com um ip padrão host(127.0.0.1) e logo após o nome do domínio:
 
 Exemplo:
 	127.0.0.1	localhost
 	127.0.0.1       atividade-compasso #linha acrescentada
 
-Obs: Para salvar basta precionar ESC e digitar :wq! e dar enter.
+Obs: Para salvar basta pressionar ESC e digitar :wq! e dar enter.
+
+- Depois de ter salvo as modificações do arquivo, volte a permissão padrão do arquivo:
+
+	$ sudo chmod 644 hosts
+
 
 

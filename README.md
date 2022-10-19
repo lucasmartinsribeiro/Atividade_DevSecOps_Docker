@@ -62,7 +62,7 @@ E inserimos a seguinte programação e salvamos o documento.
 
 	services:
 	  db:
-	    image: mysql:latest
+	    image: mysql:8.0.31
 	    command: mysqld --default_authentication_plugin=mysql_native_password
 	    restart: always
 	    environment:

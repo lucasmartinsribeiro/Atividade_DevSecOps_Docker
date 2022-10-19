@@ -179,7 +179,7 @@ E inserimos a seguinte programação e salvamos o documento.
 >Obs: pressione a tecla i para entrar no modo de edição. Edite o arquivo e salve! Para salvar basta pressionar ESC e digitar :wq! e dar enter.
 
 
-3. Depois do arquivo YML configurado, no mesmo diretório que está localizado o arquivo executamo o arquivo com o comando:
+3. Depois do arquivo YML configurado, no mesmo diretório que está localizado o arquivo execute o arquivo com o comando:
 
 ```
 docker-compose up
